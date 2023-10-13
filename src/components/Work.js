@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
 // img
-import Img1 from "../assets/portfolio-img1.png";
-import Img2 from "../assets/portfolio-img2.png";
-import Img3 from "../assets/portfolio-img3.png";
+import Img1 from "../assets/ini1.png";
+import Img2 from "../assets/ini2.png";
+import Img3 from "../assets/ini3.png";
 
 const Work = () => {
 	return (
@@ -22,14 +22,14 @@ const Work = () => {
 					>
 						{/* text */}
 						<div>
-							<h2 className="text-acc font-primary text-[32px] mb-6 tracking-[10%] leading-tight text-accent">
+							<h2 className="text-acc font-primary text-[32px] mb-6 tracking-[10%] leading-tight ">
 								Initiatives
 							</h2>
 							<p className="max-w-sm mb-16">
 								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
 								perspiciatis quae voluptate numquam nam dolorem.
 							</p>
-							<button className="btn btn-sm">View all Projects</button>
+							<button className="btn btn-sm">View all Initiatives</button>
 						</div>
 						{/* image */}
 						<div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">

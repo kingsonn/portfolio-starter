@@ -29,8 +29,8 @@ const Banner = () => {
 					variants={fadeIn("down", 0.5)}
 					initial="hidden"
 					whileInView={"show"}
-					className=" lg:flex  flex-1 max-w-[320px] lg:max-w-[482px]">
-						<img className="rounded-[50px] "  src={Image} alt="" />
+					className=" lg:flex object-center flex-1  lg:max-w-[482px]">
+						<img className="object-center rounded-[50px] "  src={Image} alt="" />
 					</motion.div>
 						<motion.h1
 							variants={fadeIn("up", 0.3)}
