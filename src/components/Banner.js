@@ -1,6 +1,6 @@
 import React from "react";
 // images
-import Image from "../assets/avatar.svg";
+import Image from "../assets/abhi.png";
 //icons
 import {
 	FaGithub,
@@ -25,14 +25,21 @@ const Banner = () => {
 				<div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
 					{/* text */}
 					<div className="flex-1 text-center font-secondary lg:text-left">
+					<motion.div
+					variants={fadeIn("down", 0.5)}
+					initial="hidden"
+					whileInView={"show"}
+					className=" lg:flex  flex-1 max-w-[320px] lg:max-w-[482px]">
+						<img className="rounded-[50px] "  src={Image} alt="" />
+					</motion.div>
 						<motion.h1
 							variants={fadeIn("up", 0.3)}
 							initial="hidden"
 							whileInView={"show"}
 							viewport={{ once: false, amount: 0.7 }}
-							className="text-[55px] font-bold leading-[0.8] lg:text-[110px]"
+							className="text-[55px] mt-3 font-bold leading-[0.8] lg:text-[110px]"
 						>
-							AUSTIN <span>AYERS</span>
+							ABHIJEET <span>ANAND</span>
 						</motion.h1>
 						<motion.div
 							variants={fadeIn("up", 0.4)}
@@ -41,18 +48,18 @@ const Banner = () => {
 							viewport={{ once: false, amount: 0.7 }}
 							className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
 						>
-							<span className="text-white mr-4">I am a</span>
+							{/* <span className="text-white mr-4">I am a</span> */}
 							<TypeAnimation
 								sequence={[
-									"Developer",
+									"Love",
 									2000,
-									"Designer",
+									"Light",
 									2000,
-									"Freelancer",
-									2000,
+									"Empowerment",
+									1000,
 								]}
 								speed={50}
-								className="text-accent"
+								className="text-acc"
 								wrapper="span"
 								repeat={Infinity}
 							/>
@@ -64,8 +71,7 @@ const Banner = () => {
 							viewport={{ once: false, amount: 0.7 }}
 							className="mb-8 max-w-lg mx-auto lg:mx-0"
 						>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-							numquam. Harum deleniti id sapiente.
+						I would, I could, I should are all fallacies to the dreams. The thing that makes a difference is “I will”.
 						</motion.p>
 						<motion.div 
 						variants={fadeIn("up", 0.5)}
@@ -97,13 +103,7 @@ const Banner = () => {
 						</motion.div>
 					</div>
 					{/* image */}
-					<motion.div
-					variants={fadeIn("down", 0.5)}
-					initial="hidden"
-					whileInView={"show"}
-					className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]">
-						<img src={Image} alt="" />
-					</motion.div>
+					
 				</div>
 			</div>
 		</section>

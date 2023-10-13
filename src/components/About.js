@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "../assets/logoo.png";
+
 // countup
 import CountUp from "react-countup";
 // intersection observer
@@ -22,7 +24,7 @@ const About = () => {
 						initial="hidden"
 						whileInView={"show"}
 						viewport={{ once: false, amount: 0.3 }}
-						className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
+						className="flex-1 bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
 					></motion.div>
 					{/* text */}
 					<motion.div
@@ -31,8 +33,10 @@ const About = () => {
 						whileInView={"show"}
 						viewport={{ once: false, amount: 0.3 }}
 						className="flex-1"
-					>
-						<h2 className="h2 text-accent">About Me</h2>
+					><div className=" flex">
+						<img className="rounded-[50px] w-12 h-12"  src={Image} alt="" />
+						<h2 className="h2 ml-3 mt-2 text-accent">ab Coffee</h2>
+						</div>
 						<h3 className="h3 mb-4">
 							I'm a Freelance Front-end Developer with over 5 years of
 							experience.
