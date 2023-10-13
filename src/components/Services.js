@@ -9,38 +9,27 @@ import { fadeIn } from "../variants";
 // services data
 const services = [
 	{
-		name: "UI/UX Design",
+		name: "Vision",
 		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquid autem quos excepturi saepe voluptate.",
+		"To build a society where every knowledgeable person mentors a less informed person, a wiser helps the less wise,and a more capable brings the less capable up with him. Imagine where every other person is linked to another and working relentlessly to make each other successful. The world would grow at a pace that would be unprecedented and make the lives of every human more fulfilling and rewarding.",
 		link: "Learn more",
 	},
 	{
-		name: "Development",
+		name: "Mission",
 		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquid autem quos excepturi saepe voluptate.",
+		"To make this world a better place than what I found it.",
 		link: "Learn more",
 	},
-	{
-		name: "Digital Marketing",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquid autem quos excepturi saepe voluptate.",
-		link: "Learn more",
-	},
-	{
-		name: "Product Branding",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquid autem quos excepturi saepe voluptate.",
-		link: "Learn more",
-	},
+
 ];
 
 const Services = () => {
 	return (
-		<section className="section" id="services">
+		<section className="section mt-10" id="services">
 			<div className="container mx-auto">
 				<div className="flex flex-col lg:flex-row">
 					{/* text & image*/}
-					<motion.div 
+					{/* <motion.div 
 					variants={fadeIn('right', 0.3)}
 					initial="hidden"
 					whileInView={"show"}
@@ -52,12 +41,12 @@ const Services = () => {
 							experience.
 						</h3>
 						<button className="btn btn-sm">See my work</button>
-					</motion.div>
+					</motion.div> */}
 
 					{/* services */}
 					<motion.div 
 					variants={fadeIn('left', 0.3)}
-					initial="hidden"
+					initial="invisible"
 					whileInView={"show"}
 					viewport={{once: false, amount: 0.3}}
 					className="flex-1">
@@ -68,18 +57,18 @@ const Services = () => {
 								const { name, description, link } = service;
 								return (
 									<div
-										className="border-b border-white/20 h-[146px] mb-[38px] flex"
+										className="border-b border-white/20  mb-[38px] flex"
 										key={index}
 									>
 										<div className="max-w-[476px]">
-											<h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">
+											<h4 className="text-[25px] text-acc tracking-wider font-primary font-semibold mb-6">
 												{name}
 											</h4>
 											<p className="font-secondary leading-tight">
 												{description}
 											</p>
 										</div>
-										<div className="flex flex-col flex-1 items-end">
+										{/* <div className="flex flex-col flex-1 items-end">
 											<a
 												href="#"
 												className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
@@ -89,7 +78,7 @@ const Services = () => {
 											<a href="#" className="text-gradient text-sm">
 												{link}
 											</a>
-										</div>
+										</div> */}
 									</div>
 								);
 							})}
