@@ -18,7 +18,7 @@ import { fadeIn } from "../variants";
 const Banner = () => {
 	return (
 		<section
-			className="min-h-[85vh] lg:min-h-[78vh] flex items-center"
+			className="min-h-[85vh] lg:min-h-[78vh] mb-3 flex items-center"
 			id="home"
 		>
 			<div className="container mx-auto">
@@ -90,13 +90,13 @@ const Banner = () => {
 						viewport={{ once: false, amount: 0.7 }}
 						className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
 							<a href="#">
-								<FaYoutube />
+								{/* <FaYoutube /> */}
 							</a>
 							<a href="#">
-								<FaGithub />
+								{/* <FaGithub /> */}
 							</a>
 							<a href="#">
-								<FaDribbble />
+								{/* <FaDribbble /> */}
 							</a>
 						</motion.div>
 					</div>

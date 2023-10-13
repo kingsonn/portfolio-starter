@@ -25,7 +25,7 @@ const services = [
 
 const Services = () => {
 	return (
-		<section className="section mt-5" id="services">
+		<section className="section mt-3" id="services">
 			<div className="container mx-auto">
 				<div className="flex flex-col lg:flex-row">
 					{/* text & image*/}

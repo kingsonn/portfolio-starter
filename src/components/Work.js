@@ -22,7 +22,7 @@ const Work = () => {
 					>
 						{/* text */}
 						<div>
-							<h2 className="text-acc font-primary text-[32px] mb-6 tracking-[10%] leading-tight ">
+							<h2 className="text-acc font-primary text-[32px] mb-6 tracking-[10%] leading-tight uppercase semibold">
 								Initiatives
 							</h2>
 							<p className="max-w-sm mb-16">
@@ -43,7 +43,7 @@ const Work = () => {
 							/>
 							{/* pretitle */}
 							<div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-								<span className="text-gradient">UI/UX Design</span>
+								<span className="text-gradient">Initiative</span>
 							</div>
 							{/* title */}
 							<div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
@@ -70,7 +70,7 @@ const Work = () => {
 							/>
 							{/* pretitle */}
 							<div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-								<span className="text-gradient">UI/UX Design</span>
+								<span className="text-gradient">Initiative</span>
 							</div>
 							{/* title */}
 							<div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
@@ -89,7 +89,7 @@ const Work = () => {
 							/>
 							{/* pretitle */}
 							<div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-								<span className="text-gradient">UI/UX Design</span>
+								<span className="text-gradient">Initiative</span>
 							</div>
 							{/* title */}
 							<div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
