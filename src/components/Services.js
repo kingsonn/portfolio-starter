@@ -30,7 +30,7 @@ const Services = () => {
 				<div className="flex flex-col lg:flex-row">
 					{/* text & image*/}
 					<div
-					className="flex-1  lg:bg-bottom bg-no-repeat mix-blend-lighten mb-3 lg:mb-0">
+					>
 						<h2 className="h2 text-acc ">Vision & Mission</h2>
 						{/* <h3 className="h3 max-w-[455px] mb-16">
 							I'm a Freelance Front-end Developer with over 5 years of
