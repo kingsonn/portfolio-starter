@@ -79,10 +79,8 @@ const Banner = () => {
 						whileInView={"show"}
 						viewport={{ once: false, amount: 0.6 }}
 						className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
-							<button className="btn btn-lg">Contact Me</button>
-							<a href="#" className="text-gradient btn-link">
-								My Portfolio
-							</a>
+							<button className="btn btn-lg">Let's make it happen</button>
+							
 						</motion.div>
 						{/* socials */}
 						<motion.div 
